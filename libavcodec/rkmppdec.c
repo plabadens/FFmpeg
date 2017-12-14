@@ -567,8 +567,7 @@ static void rkmpp_flush(AVCodecContext *avctx)
         .receive_frame  = rkmpp_receive_frame, \
         .flush          = rkmpp_flush, \
         .priv_class     = &rkmpp_##NAME##_dec_class, \
-        .capabilities   = AV_CODEC_CAP_DELAY, \
-        .caps_internal  = AV_CODEC_CAP_AVOID_PROBING, \
+        .capabilities   = AV_CODEC_CAP_DELAY | AV_CODEC_CAP_AVOID_PROBING, \
         .pix_fmts       = (const enum AVPixelFormat[]) { AV_PIX_FMT_DRM_PRIME, \
                                                          AV_PIX_FMT_NONE}, \
         .bsfs           = BSFS, \
