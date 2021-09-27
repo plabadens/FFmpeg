@@ -73,6 +73,10 @@
  * internal logic derive them from AVCodecInternal.last_pkt_props.
  */
 #define FF_CODEC_CAP_SETS_FRAME_PROPS       (1 << 8)
+/**
+ * The decoder requires contiguous buffers.
+ */
+#define FF_CODEC_CAP_CONTIGUOUS_BUFFERS     (1 << 28)
 
 /**
  * FFCodec.codec_tags termination value
