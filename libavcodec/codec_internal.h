@@ -73,6 +73,14 @@
  * internal logic derive them from AVCodecInternal.last_pkt_props.
  */
 #define FF_CODEC_CAP_SETS_FRAME_PROPS       (1 << 8)
+/**
+ * Codec supports embedded ICC profiles (AV_FRAME_DATA_ICC_PROFILE).
+ */
+#define FF_CODEC_CAP_ICC_PROFILES           (1 << 9)
+/**
+ * The decoder requires contiguous buffers.
+ */
+#define FF_CODEC_CAP_CONTIGUOUS_BUFFERS     (1 << 28)
 
 /**
  * FFCodec.codec_tags termination value
