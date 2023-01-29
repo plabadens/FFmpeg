@@ -144,6 +144,7 @@ static void register_all(void)
     REGISTER_ENCDEC (ASV2,              asv2);
     REGISTER_DECODER(AURA,              aura);
     REGISTER_DECODER(AURA2,             aura2);
+    REGISTER_DECODER(AV1_RKMPP,         av1_rkmpp);
     REGISTER_ENCDEC (AVRP,              avrp);
     REGISTER_DECODER(AVRN,              avrn);
     REGISTER_DECODER(AVS,               avs);
