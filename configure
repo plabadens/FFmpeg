@@ -2943,6 +2943,7 @@ nvenc_deps="ffnvcodec"
 nvenc_deps_any="libdl LoadLibrary"
 nvenc_encoder_deps="nvenc"
 
+av1_rkmpp_decoder_deps="rkmpp"
 h263_v4l2m2m_decoder_deps="v4l2_m2m h263_v4l2_m2m"
 h263_v4l2m2m_encoder_deps="v4l2_m2m h263_v4l2_m2m"
 h263_rkmpp_decoder_deps="rkmpp"
